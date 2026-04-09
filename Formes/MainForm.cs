@@ -34,7 +34,7 @@ namespace MedicalCardApp.Formes
         }
 
         /// <summary>
-        /// Очищает все данные контейнера и сбрасывает тип текущей сущности на "Doctors"
+        /// Очищает все данные контейнера и сбрасывает тип текущей сущности на "Врачи"
         /// </summary>
         private void ClearAllData()
         {
@@ -56,7 +56,7 @@ namespace MedicalCardApp.Formes
         }
 
         /// <summary>
-        /// Загружает данные в DataGridView в зависимости от выбранного типа сущности
+        /// Загружает данные в таблицу в зависимости от выбранного типа сущности
         /// </summary>
         private void LoadDataToGrid()
         {
@@ -151,7 +151,7 @@ namespace MedicalCardApp.Formes
         }
 
         /// <summary>
-        /// Отображает детальную информацию о выбранной в таблице сущности в модальном окне
+        /// Отображает детальную информацию о выбранной в таблице сущности в новом окне
         /// </summary>
         private void ButtonShowDetails_Click(object sender, EventArgs e)
         {
@@ -174,7 +174,7 @@ namespace MedicalCardApp.Formes
         }
 
         /// <summary>
-        /// Сбрасывает все данные после подтверждения пользователя
+        /// Сбрасывает все данные после подтверждения от пользователя
         /// </summary>
         private void ButtonResetData_Click(object sender, EventArgs e)
         {
