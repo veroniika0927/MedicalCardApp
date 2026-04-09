@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MedicalData>
+	<Doctors>
+		<Doctor>
+			<Id>1</Id>
+			<FullName>Иванов Александр Петрович</FullName>
+			<Specialization>Терапевт</Specialization>
+			<Phone>+7 (495) 123-45-67</Phone>
+			<WorkAddress>
+				<ClinicName>Поликлиника №1</ClinicName>
+				<City>Москва</City>
+				<Street>Ленина</Street>
+				<Building>15</Building>
+			</WorkAddress>
+			<WorkingDays>
+				<string>ПН</string>
+				<string>ВТ</string>
+				<string>СР</string>
+				<string>ЧТ</string>
+				<string>ПТ</string>
+			</WorkingDays>
+		</Doctor>
+		<Doctor>
+			<Id>2</Id>
+			<FullName>Петрова Елена Михайловна</FullName>
+			<Specialization>Кардиолог</Specialization>
+			<Phone>+7 (495) 234-56-78</Phone>
+			<WorkAddress>
+				<ClinicName>Кардиоцентр</ClinicName>
+				<City>Москва</City>
+				<Street>Садовая</Street>
+				<Building>8</Building>
+			</WorkAddress>
+			<WorkingDays>
+				<string>ПН</string>
+				<string>СР</string>
+				<string>ПТ</string>
+			</WorkingDays>
+		</Doctor>
+	</Doctors>
+	<Patients>
+		<Patient>
+			<Id>1</Id>
+			<FullName>Смирнов Олег Викторович</FullName>
+			<BirthDate>1985-05-15T00:00:00</BirthDate>
+			<Phone>+7 (916) 123-45-67</Phone>
+			<HomeAddress>
+				<ClinicName>Домашний</ClinicName>
+				<City>Москва</City>
+				<Street>Тверская</Street>
+				<Building>10</Building>
+			</HomeAddress>
+			<BloodType>II (A) Rh+</BloodType>
+			<PassportNumber>4512 123456</PassportNumber>
+		</Patient>
+		<Patient>
+			<Id>2</Id>
+			<FullName>Козлова Анна Сергеевна</FullName>
+			<BirthDate>1992-08-23T00:00:00</BirthDate>
+			<Phone>+7 (916) 234-56-78</Phone>
+			<HomeAddress>
+				<ClinicName>Домашний</ClinicName>
+				<City>Москва</City>
+				<Street>Арбат</Street>
+				<Building>25</Building>
+			</HomeAddress>
+			<BloodType>I (O) Rh+</BloodType>
+			<PassportNumber>4512 234567</PassportNumber>
+		</Patient>
+	</Patients>
+	<Diseases>
+		<Disease>
+			<Id>1</Id>
+			<Name>Грипп</Name>
+			<Severity>Средняя</Severity>
+			<DurationDays>7</DurationDays>
+			<Symptoms>
+				<string>Температура</string>
+				<string>Кашель</string>
+				<string>Головная боль</string>
+			</Symptoms>
+			<Treatment>Постельный режим, обильное питье</Treatment>
+			<IcdCode>J10</IcdCode>
+		</Disease>
+		<Disease>
+			<Id>2</Id>
+			<Name>Гипертония</Name>
+			<Severity>Тяжелая</Severity>
+			<DurationDays>0</DurationDays>
+			<Symptoms>
+				<string>Повышенное давление</string>
+				<string>Головокружение</string>
+			</Symptoms>
+			<Treatment>Снижение давления, диета</Treatment>
+			<IcdCode>I10</IcdCode>
+		</Disease>
+	</Diseases>
+</MedicalData>

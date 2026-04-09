@@ -1,0 +1,80 @@
+{
+  "Doctors": [
+    {
+      "Id": 1,
+      "FullName": "Сидоров Дмитрий Иванович",
+      "Specialization": "Хирург",
+      "Phone": "+7 (495) 345-67-89",
+      "WorkAddress": {
+        "ClinicName": "Городская больница №2",
+        "City": "Москва",
+        "Street": "Больничная",
+        "Building": "3"
+      },
+      "WorkingDays": [ "ВТ", "ЧТ", "СБ" ]
+    },
+    {
+      "Id": 2,
+      "FullName": "Виноградова Ольга Сергеевна",
+      "Specialization": "Гинеколог",
+      "Phone": "+7 (495) 456-78-90",
+      "WorkAddress": {
+        "ClinicName": "Женская консультация",
+        "City": "Москва",
+        "Street": "Пушкинская",
+        "Building": "12"
+      },
+      "WorkingDays": [ "ПН", "СР", "ПТ" ]
+    }
+  ],
+  "Patients": [
+    {
+      "Id": 1,
+      "FullName": "Морозов Иван Дмитриевич",
+      "BirthDate": "1978-11-03T00:00:00",
+      "Phone": "+7 (916) 345-67-89",
+      "HomeAddress": {
+        "ClinicName": "Домашний",
+        "City": "Москва",
+        "Street": "Профсоюзная",
+        "Building": "42"
+      },
+      "BloodType": "III (B) Rh-",
+      "PassportNumber": "4512 345678"
+    },
+    {
+      "Id": 2,
+      "FullName": "Федорова Екатерина Дмитриевна",
+      "BirthDate": "1998-11-12T00:00:00",
+      "Phone": "+7 (921) 222-33-44",
+      "HomeAddress": {
+        "ClinicName": "Домашний",
+        "City": "Санкт-Петербург",
+        "Street": "Невский",
+        "Building": "50"
+      },
+      "BloodType": "IV (AB) Rh+",
+      "PassportNumber": "2345 678901"
+    }
+  ],
+  "Diseases": [
+    {
+      "Id": 1,
+      "Name": "Ангина",
+      "Severity": "Средняя",
+      "DurationDays": 10,
+      "Symptoms": [ "Боль в горле", "Температура 38-39", "Увеличенные миндалины" ],
+      "Treatment": "Антибиотики, полоскания",
+      "IcdCode": "J03"
+    },
+    {
+      "Id": 2,
+      "Name": "Бронхит",
+      "Severity": "Легкая",
+      "DurationDays": 14,
+      "Symptoms": [ "Кашель", "Температура 37.5", "Одышка" ],
+      "Treatment": "Ингаляции, отхаркивающие средства",
+      "IcdCode": "J20"
+    }
+  ]
+}
